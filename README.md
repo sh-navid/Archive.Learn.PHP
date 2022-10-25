@@ -7,6 +7,7 @@
 - [Syntax](php/syntax/README.md)
 - [Array](php/concepts/array/README.md)
 - [Function](php/concepts/function/README.md)
+- [Scope](php/concepts/scope/README.md)
 
 # Laravel Framework
 - Latest version [9.x](https://laravel.com/docs/9.x)
