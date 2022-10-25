@@ -1,6 +1,5 @@
 <?php
 
-use Shape as GlobalShape;
 
 class Shape
 {
