@@ -1,30 +1,13 @@
 <?php
 
-$a=12;
-$b=13;
+$a=10;
 
-function myFunction(){
-    global $b,$c;
-    static $d;
+function func1(){
+    global $a;
+    $a=14;
+    print $a;
+    print "\n";
 }
 
-myFunction();
-
-print_r(array_keys($GLOBALS));
-/* Output
-(
-    [0] => _GET
-    [1] => _POST
-    [2] => _COOKIE
-    [3] => _FILES
-    [4] => argv
-    [5] => argc
-    [6] => _SERVER
-    [7] => GLOBALS
-    [8] => a
-    [9] => b
-    [10] => c
-)
-*/
-
-print_r($GLOBALS["a"]);
+func1();
+print $a;
