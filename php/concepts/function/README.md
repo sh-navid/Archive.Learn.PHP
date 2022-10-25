@@ -4,4 +4,5 @@
 - Scope
     - [local](function-scope-local.php)
     - [global](function-scope-global.php)
+        - [$GLOBALS](scope-global.php)
     - [static](function-scope-static.php)
