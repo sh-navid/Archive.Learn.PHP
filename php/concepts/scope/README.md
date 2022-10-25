@@ -1,6 +1,5 @@
 # PHP
 ## Scope
-- Scope
 - [local](scope-local.php)
 - [global](scope-global.php)
     - [$GLOBALS](scope-global-array.php)
