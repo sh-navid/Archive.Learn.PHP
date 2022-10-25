@@ -4,7 +4,7 @@
 ## Good to know
 - PHP Stands for **"Hypertext Preprocessor"**
 - For quick run of scripts:
-    - You can use ***VSCode*** + ***A code runner extenson***.
+    - You can use ***VSCode*** + ***A code runner extension***.
 
 ## Headings
 - [Output](php/concepts/output/README.md)
