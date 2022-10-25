@@ -2,18 +2,18 @@
 - For starters to change `MySql` with `Sqlite`:
     - Go to `database` directory and create this file.
         - `database.sqlite`
-    - Open `.env` file in the root of laravel project.
-    - Remove these lines:
-        - `DB_HOST=127.0.0.1`
-        - `DB_PORT=3306`
-        - `DB_DATABASE=laravel`
-        - `DB_USERNAME=root`
-        - `DB_PASSWORD=`
-    - Change `DB_CONNECTION=mysql` to `DB_CONNECTION=sqlite`
+    - Open `.env` file in the `ROOT` of laravel project.
+        - Remove these lines:
+            - `DB_HOST=127.0.0.1`
+            - `DB_PORT=3306`
+            - `DB_DATABASE=laravel`
+            - `DB_USERNAME=root`
+            - `DB_PASSWORD=`
+        - Change `DB_CONNECTION=mysql` to `DB_CONNECTION=sqlite`
     - Now goto php installation folder and open `php.ini`
-        - Change `;extension=pdo_sqlite` to `extension=pdo_sqlite`
+        - Uncomment and Change `;extension=pdo_sqlite` to `extension=pdo_sqlite`
     - Open a terminal at `ROOT` of your project
-    - Run this command
-        - `php artisan migrate`
-    - In case of error; you may need to execute it like this
-        - `php artisan migrate --env=dev`
+        - Run this command
+            - `php artisan migrate`
+        - In case of error; you may need to execute it like this
+            - `php artisan migrate --env=dev`
