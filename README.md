@@ -1,8 +1,9 @@
 # PHP Instructor
-- Hypertext Preprocessor
-- Output
-    - `echo`
-        - [Example](concepts/array/output-echo-example.php)
+- ***Disclaimer: The content of this repository is provided only for the purpose of teaching students and with an educational perspective.***
+- PHP Stands for **"Hypertext Preprocessor"**
+
+## Headings
+- [Output](php/output/README.md)
 - Array
     - Types
         - Indexed
