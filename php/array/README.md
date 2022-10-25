@@ -1,0 +1,10 @@
+# PHP
+## Array
+- Types
+        - Indexed
+        - Associative 
+        - Multidimensional
+    - `array()`
+        - [Example](concepts/array/output-array-example.php)
+    - `each()`
+    - `count()`
