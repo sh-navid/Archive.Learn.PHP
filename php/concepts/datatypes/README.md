@@ -14,7 +14,7 @@
         - [Iterable](datatype-iterable.php)
     - Special Types
         - [Resource](datatype-resource.php)
-        - NULL
+        - [NULL](datatype-null.php)
 - Type Checking <small><sup>[***[PHP Manual 10/29/2022](https://www.php.net/manual/en/function.gettype.php)***]<sup></small>
     - `gettype()`
     - `settype()`
