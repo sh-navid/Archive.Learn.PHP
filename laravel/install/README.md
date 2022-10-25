@@ -1,6 +1,6 @@
 # Laravel Installation
 
-- Download [php](php.net)
+- Download [php](https://www.php.net/)
 - Download [Composer](https://getcomposer.org/)
 - Open a Terminal and Type
     - `composer create-project laravel/laravel my-app`
