@@ -8,10 +8,10 @@
         - [Boolean](datatype-boolean.php)
         - [String](datatype-string.php)
     - Compound Types
-        - Array
-        - Object
-        - Callable
-        - Iterable
+        - [Array](datatype-array.php)
+        - [Object](datatype-object.php)
+        - [Callable](datatype-callable.php)
+        - [Iterable](datatype-iterable.php)
     - Special Types
         - Resource
         - NULL
