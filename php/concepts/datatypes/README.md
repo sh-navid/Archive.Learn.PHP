@@ -1,6 +1,21 @@
 # PHP
 ## Data Type
-- Numbers
-    - [Integer](datatype-integer.php)
-    - [Float](datatype-float.php)
-- [Boolean](datatype-boolean.php)
+- Primitive types <small><sup>[***[PHP Manual 10/29/2022](https://www.php.net/manual/en/language.types.intro.php)***]<sup></small>
+    - Scalar Types
+        - Numbers
+            - [Integer](datatype-integer.php)
+            - [Float](datatype-float.php)(Double)
+        - [Boolean](datatype-boolean.php)
+        - String
+    - Compound Types
+        - Array
+        - Object
+        - Callable
+        - Iterable
+    - Special Types
+        - Resource
+        - NULL
+- Type Checking
+    - `gettype()`
+    - `is_int()`
+    - `is_string()`
