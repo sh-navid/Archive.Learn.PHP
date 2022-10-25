@@ -1,7 +1,7 @@
 <?php
 
 
-$b=[10,20,30];
+$b = [10, 20, 30];
 var_dump($b);
 /*
 array(3) {
@@ -15,5 +15,5 @@ array(3) {
 */
 
 
-echo gettype($b)."\n";
+echo gettype($b) . "\n";
 // array

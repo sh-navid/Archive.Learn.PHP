@@ -1,14 +1,14 @@
 <?php
 
-$i="AA";
+$i = "AA";
 
-$check=is_string($i);
+$check = is_string($i);
 
-echo "<",$check,">","\n";
-echo gettype($check),"\n";
+echo "<", $check, ">", "\n";
+echo gettype($check), "\n";
 
-if($check){
+if ($check) {
     echo "YES";
-}else{
+} else {
     echo "NO";
 }

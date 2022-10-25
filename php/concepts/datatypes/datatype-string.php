@@ -1,10 +1,10 @@
 <?php
 
 
-$b="hello";
+$b = "hello";
 var_dump($b);
 //string(6) "hello"
 
 
-echo gettype($b)."\n";
+echo gettype($b) . "\n";
 // string

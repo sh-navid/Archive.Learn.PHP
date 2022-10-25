@@ -1,13 +1,14 @@
 <?php
 
 
-class Shape{
-   public $count=12;
+class Shape
+{
+  public $count = 12;
 };
 $obj = new Shape();
 
 
-var_dump($obj)."\n";
+var_dump($obj) . "\n";
 /*
 object(Shape)#1 (1) {
   ["count"]=>
@@ -16,7 +17,7 @@ object(Shape)#1 (1) {
 */
 
 
-print_r($obj)."\n";
+print_r($obj) . "\n";
 /*
 Shape Object
 (
@@ -25,7 +26,7 @@ Shape Object
 */
 
 
-echo gettype($obj)."\n";
+echo gettype($obj) . "\n";
 /*
 object
 */

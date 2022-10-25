@@ -1,5 +1,5 @@
 <?php
 
-$i=12;
+$i = 12;
 echo gettype($i);
 // integer

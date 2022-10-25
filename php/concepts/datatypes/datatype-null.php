@@ -1,7 +1,7 @@
 <?php
 
-$x=NULL;
-$y=null;
+$x = NULL;
+$y = null;
 
 echo $x;
 // ""
