@@ -4,6 +4,7 @@
 
 ## Headings
 - [Output](php/concepts/output/README.md)
+- [Syntax](php/syntax/README.md)
 - [Array](php/concepts/array/README.md)
 
 # Laravel Framework

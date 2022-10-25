@@ -4,7 +4,6 @@
     - Indexed
     - Associative 
     - Multidimensional
-- `array()`
-    - [Example](array-output.php)
+- [`array()`](array-output.php)
 - `each()`
 - `count()`
