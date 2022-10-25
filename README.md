@@ -1,5 +1,7 @@
 # PHP Instructor
 - ***Disclaimer: The content of this repository is provided only for the purpose of teaching students and with an educational perspective.***
+
+## Good to know
 - PHP Stands for **"Hypertext Preprocessor"**
 - For quick run of scripts:
     - You can use ***VSCode*** + ***A code runner extenson***.
