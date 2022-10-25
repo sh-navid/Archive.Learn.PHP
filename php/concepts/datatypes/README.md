@@ -6,7 +6,7 @@
             - [Integer](datatype-integer.php)
             - [Float](datatype-float.php)(Double)
         - [Boolean](datatype-boolean.php)
-        - String
+        - [String](datatype-string.php)
     - Compound Types
         - Array
         - Object
