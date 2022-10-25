@@ -18,6 +18,7 @@
 - What we have in this framework?
     - Dependency Injection
     - Unit Testing
+    - Template Engine (Blade)
     - ...
 - [Installation](laravel/install/README.md)
 - [Database Configuration](laravel/database/README.md)

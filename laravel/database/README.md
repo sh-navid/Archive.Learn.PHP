@@ -10,6 +10,10 @@
         - `DB_USERNAME=root`
         - `DB_PASSWORD=`
     - Change `DB_CONNECTION=mysql` to `DB_CONNECTION=sqlite`
-    - Open a terminal at root of your project
+    - Now goto php installation folder and open `php.ini`
+        - Change `;extension=pdo_sqlite` to `extension=pdo_sqlite`
+    - Open a terminal at `ROOT` of your project
     - Run this command
         - `php artisan migrate`
+    - In case of error; you may need to execute it like this
+        - `php artisan migrate --env=dev`
