@@ -5,6 +5,7 @@
 ## Headings
 - [Output](php/concepts/output/README.md)
 - [Syntax](php/syntax/README.md)
+- [DataTypes](php/concepts/datatypes/README.md)
 - [Array](php/concepts/array/README.md)
 - [Function](php/concepts/function/README.md)
 - [Scope](php/concepts/scope/README.md)
