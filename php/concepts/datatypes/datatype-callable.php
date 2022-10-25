@@ -17,4 +17,4 @@ function f2(callable $callback)
     // Hello
 }
 
-f2(f);
+f2("f");

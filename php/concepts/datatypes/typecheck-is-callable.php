@@ -15,4 +15,4 @@ function f2(callable $callback)
     echo $callback();
 }
 
-f2(f);
+f2("f");
