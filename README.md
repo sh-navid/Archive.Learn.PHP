@@ -1,1 +1,3 @@
-# php-instructor
+# PHP Instructor
+- Output
+    - `echo`
