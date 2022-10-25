@@ -3,8 +3,8 @@
 - PHP Stands for **"Hypertext Preprocessor"**
 
 ## Headings
-- [Output](php/output/README.md)
-- [Array](php/array/README.md)
+- [Output](php/concepts/output/README.md)
+- [Array](php/concepts/array/README.md)
 
 # Laravel Framework
 - Latest version [9.x](https://laravel.com/docs/9.x)
