@@ -13,7 +13,7 @@
         - [Callable](datatype-callable.php)
         - [Iterable](datatype-iterable.php)
     - Special Types
-        - Resource
+        - [Resource](datatype-resource.php)
         - NULL
 - Type Checking <small><sup>[***[PHP Manual 10/29/2022](https://www.php.net/manual/en/function.gettype.php)***]<sup></small>
     - `gettype()`
