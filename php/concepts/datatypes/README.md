@@ -33,3 +33,5 @@
     - [`function_exists()`](typecheck-is-func-exists.php)
     - [`method_exists()`](typecheck-is-method-exists.php)
     - [`get_debug_type()`](typecheck-get-debug-type.php)
+        - Gets the type name of a variable in a way that is suitable for debugging <small><sup>[***[PHP Manual 10/29/2022](https://www.php.net/manual/en/function.get-debug-type.php)***]<sup></small>
+        - This is for ***PHP 8***
