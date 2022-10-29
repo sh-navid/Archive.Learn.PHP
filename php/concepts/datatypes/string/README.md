@@ -4,21 +4,29 @@
 - **Functions**
     - **Output**
         - echo()
+        - print()
+        - printf()
     - **Count**
         - strlen()
         - count_chars()
         - str_word_count()
-    - **Convert**
+    - **Cast/Convert**
         - convert_uudecode()
         - convert_uuencode()
-    - **Cast**
+        - chr()
+        - ord()
         - bin2hex()
         - hex2bin()
     - **Hash**
         - crypt()
+        - md5()
+        - md5_file()
     - **Calculation**
         - crc32()
+        - levenshtein()
+        - metaphone()
     - **Manipulate**
+        - strrev()
         - chop()
         - chunk_split()
         - str_replace()
@@ -31,11 +39,26 @@
         - get_html_translation_table()
         - htmlspecialchars()
         - htmlentities()
-    - **Other**
+    - **Format**
+        - lcfirst()
+        - localeconv()
+        - money_format()
+        - number_format()
+    - **Trim**
+        - ltrim()
+        - rtrim()
+    - **Search**
         - strpos()
-        - strrev()
+    - **Other**
+        - setlocale()
         - convert_cyr_string()
-        - chr()
+        - parse_str()
         - addslashes()
         - addcslashes()
         - fprintf()
+        - nl_langinfo()
+        - nl2br()
+        - quoted_printable_decode()
+        - quoted_printable_encode()
+        - quotemeta()
+        - 
