@@ -26,13 +26,13 @@
         - levenshtein()
         - metaphone()
     - **Manipulate**
-        - strrev()
+        - **`str_replace()`**
+        - **`implode()`**
+            - **`join()`** <small><sub>ALIAS</sub></small>
+        - **`explode()`**
+        - **`strrev()`**
         - chop()
         - chunk_split()
-        - str_replace()
-        - implode()
-            - join() <small><sub>ALIAS</sub></small>
-        - explode()
     - **HTML**
         - html_entity_decode()
         - htmlspecialchars_decode()
