@@ -2,6 +2,8 @@
 ## Datatype
 ### String
 - Functions
+    - Output
+        - echo()
     - Count
         - strlen()
         - count_chars()
@@ -9,11 +11,26 @@
     - Convert
         - convert_uudecode()
         - convert_uuencode()
+    - Cast
         - bin2hex()
+        - hex2bin()
+    - Hash
+        - crypt()
+    - Calculation
+        - crc32()
     - Manipulate
         - chop()
         - chunk_split()
         - str_replace()
+        - implode()
+            - join() <small><sub>ALIAS</sub></small>
+        - explode()
+    - HTML
+        - html_entity_decode()
+        - htmlspecialchars_decode()
+        - get_html_translation_table()
+        - htmlspecialchars()
+        - htmlentities()
     - Other
         - strpos()
         - strrev()
@@ -21,3 +38,4 @@
         - chr()
         - addslashes()
         - addcslashes()
+        - fprintf()
