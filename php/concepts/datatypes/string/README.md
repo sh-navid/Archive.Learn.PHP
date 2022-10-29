@@ -11,12 +11,12 @@
         - **`count_chars()`**
         - `str_word_count()`
     - **Cast/Convert**
-        - `convert_uudecode()`
-        - `convert_uuencode()`
         - **`chr()`**
         - **`ord()`**
         - `bin2hex()`
         - `hex2bin()`
+        - `convert_uudecode()`
+        - `convert_uuencode()`
     - **Hash**
         - `crypt()`
         - `md5()`
