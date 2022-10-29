@@ -21,18 +21,24 @@
         - `crypt()`
         - `md5()`
         - `md5_file()`
+        - `sha1()`
+        - `sha1_file()`
     - **Calculation**
-        - crc32()
-        - levenshtein()
-        - metaphone()
+        - `crc32()`
+        - `similar_text()`
+        - `soundex()`
+        - `levenshtein()`
+        - `metaphone()`
     - **Manipulate**
         - **`str_replace()`**
+            - `str_ireplace()`
+                - Case insensitive
         - **`implode()`**
             - **`join()`** <small><sub>ALIAS</sub></small>
         - **`explode()`**
         - **`strrev()`**
-        - chop()
-        - chunk_split()
+        - `chop()`
+        - `chunk_split()`
     - **HTML**
         - html_entity_decode()
         - htmlspecialchars_decode()
@@ -61,4 +67,6 @@
         - quoted_printable_decode()
         - quoted_printable_encode()
         - quotemeta()
-        - 
+        - sprintf()
+        - sscanf()
+        - str_getcsv() -> *This is more like array functionality*
