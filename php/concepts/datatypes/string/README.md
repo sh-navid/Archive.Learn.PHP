@@ -23,6 +23,7 @@
         - `md5_file()`
         - `sha1()`
         - `sha1_file()`
+        - str_rot13()
     - **Calculation**
         - `crc32()`
         - `similar_text()`
@@ -36,6 +37,7 @@
         - **`implode()`**
             - **`join()`** <small><sub>ALIAS</sub></small>
         - **`explode()`**
+            - **`str_split()`**
         - **`strrev()`**
         - `chop()`
         - `chunk_split()`
@@ -46,27 +48,61 @@
         - htmlspecialchars()
         - htmlentities()
     - **Format**
+        - strtolower()
+        - strtoupper()
         - lcfirst()
         - localeconv()
         - money_format()
         - number_format()
     - **Trim**
-        - ltrim()
-        - rtrim()
+        - **`trim()`**
+        - `ltrim()`
+        - `rtrim()`
     - **Search**
         - strpos()
+            - stripos()
+        - strrpos()
+            - strripos()
+        - strstr()
+            - stristr()
+            - strchr() <small><sub>ALIAS</sub></small>
+            - strrchr()
+    - **Substr**
+        - substr()
+        - substr_compare()
+        - substr_count()
+        - substr_replace()
     - **Other**
         - setlocale()
         - convert_cyr_string()
         - parse_str()
+        - strip_tags()
         - addslashes()
         - addcslashes()
+        - stripcslashes()
         - fprintf()
         - nl_langinfo()
+        - stripslashes()
         - nl2br()
+        - strcspn()
         - quoted_printable_decode()
         - quoted_printable_encode()
         - quotemeta()
         - sprintf()
         - sscanf()
         - str_getcsv() -> *This is more like array functionality*
+        - str_pad()
+        - str_repeat()
+        - str_shuffle()
+        - strcmp()
+            - strcasecmp()
+            - strcoll()
+        - strnatcasecmp()
+        - strnatcmp()
+        - strncasecmp()
+        - strncmp()
+        - strpbrk()
+        - strspn()
+        - strtok()
+        - strtr()
+        
