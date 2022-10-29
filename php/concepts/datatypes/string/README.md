@@ -11,16 +11,16 @@
         - **`count_chars()`**
         - `str_word_count()`
     - **Cast/Convert**
-        - convert_uudecode()
-        - convert_uuencode()
-        - chr()
-        - ord()
-        - bin2hex()
-        - hex2bin()
+        - `convert_uudecode()`
+        - `convert_uuencode()`
+        - **`chr()`**
+        - **`ord()`**
+        - `bin2hex()`
+        - `hex2bin()`
     - **Hash**
-        - crypt()
-        - md5()
-        - md5_file()
+        - `crypt()`
+        - `md5()`
+        - `md5_file()`
     - **Calculation**
         - crc32()
         - levenshtein()
