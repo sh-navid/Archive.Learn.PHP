@@ -2,20 +2,22 @@
 ## Datatype
 ### String
 - Functions
-    - N
-        - strpos()
-        - strrev()
-        - chunk_split()
-        - convert_cyr_string()
-        - chop()
-        - chr()
-        - str_replace()
+    - Count
         - strlen()
-        - addslashes()
-        - addcslashes()
+        - count_chars()
         - str_word_count()
     - Convert
         - convert_uudecode()
         - convert_uuencode()
         - bin2hex()
     - Manipulate
+        - chop()
+        - chunk_split()
+        - str_replace()
+    - Other
+        - strpos()
+        - strrev()
+        - convert_cyr_string()
+        - chr()
+        - addslashes()
+        - addcslashes()
