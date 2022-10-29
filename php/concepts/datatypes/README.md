@@ -7,8 +7,10 @@
             - [Float](datatype-float.php)(Double)
         - [Boolean](datatype-boolean.php)
         - [String](datatype-string.php)
+            - [Read more about strings](string/README.md)
     - Compound Types
         - [Array](datatype-array.php)
+            - [Read more about arrays](array/README.md)
         - [Object](datatype-object.php)
         - [Callable](datatype-callable.php)
         - [Iterable](datatype-iterable.php)

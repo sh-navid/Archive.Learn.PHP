@@ -10,9 +10,11 @@
 - [Output](php/concepts/output/README.md)
 - [Syntax](php/syntax/README.md)
 - [DataTypes](php/concepts/datatypes/README.md)
-- [Array](php/concepts/array/README.md)
+    - [Array](php/concepts/datatypes/array/README.md)
+    - [String](php/concepts/datatypes/string/README.md)
 - [Function](php/concepts/function/README.md)
 - [Scope](php/concepts/scope/README.md)
+
 
 # Laravel Framework
 - Latest version [9.x](https://laravel.com/docs/9.x)

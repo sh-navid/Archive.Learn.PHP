@@ -1,5 +1,6 @@
 # PHP
-## Array
+## Datatype
+### Array
 - Types
     - Indexed
     - Associative 
