@@ -3,13 +3,13 @@
 ### String
 - **Functions**
     - **Output**
-        - echo()
-        - print()
-        - printf()
+        - **`echo()`**
+        - **`print()`**
+        - `printf()`
     - **Count**
-        - strlen()
-        - count_chars()
-        - str_word_count()
+        - **`strlen()`**
+        - **`count_chars()`**
+        - `str_word_count()`
     - **Cast/Convert**
         - convert_uudecode()
         - convert_uuencode()
