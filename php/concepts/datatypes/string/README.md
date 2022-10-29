@@ -1,37 +1,37 @@
 # PHP
 ## Datatype
 ### String
-- Functions
-    - Output
+- **Functions**
+    - **Output**
         - echo()
-    - Count
+    - **Count**
         - strlen()
         - count_chars()
         - str_word_count()
-    - Convert
+    - **Convert**
         - convert_uudecode()
         - convert_uuencode()
-    - Cast
+    - **Cast**
         - bin2hex()
         - hex2bin()
-    - Hash
+    - **Hash**
         - crypt()
-    - Calculation
+    - **Calculation**
         - crc32()
-    - Manipulate
+    - **Manipulate**
         - chop()
         - chunk_split()
         - str_replace()
         - implode()
             - join() <small><sub>ALIAS</sub></small>
         - explode()
-    - HTML
+    - **HTML**
         - html_entity_decode()
         - htmlspecialchars_decode()
         - get_html_translation_table()
         - htmlspecialchars()
         - htmlentities()
-    - Other
+    - **Other**
         - strpos()
         - strrev()
         - convert_cyr_string()
