@@ -1,17 +1,16 @@
-# Laravel Installation
+# PHP and Composer Installation
 
-- Download [php](https://www.php.net/)
-- Download [Composer](https://getcomposer.org/)
-    - Windows
-        - Download and install directly
-    - Ubuntu
+- Windows
+        - Download [php](https://www.php.net/)
+        - Download [Composer](https://getcomposer.org/)
+- Ubuntu
         - Run this command
             - `sudo apt install php-cli`
         - Continue installation process of [getcomposer](https://getcomposer.org/download/) for linux
         - After running above instruction you should have `composer.phar` in your working directory
         - Now you can run composer `./composer.phar`
-___
-
+        - 
+# Laravel Installation
 - Open a Terminal and Type
     - Windows
         - `composer create-project laravel/laravel my-app`
