@@ -1,12 +1,12 @@
 # PHP and Composer Installation
 
 - Windows
-        - Download [php](https://www.php.net/)
-        - Download [Composer](https://getcomposer.org/)
+    - Download [php](https://www.php.net/)
+    - Download [Composer](https://getcomposer.org/)
 - Ubuntu
     - Run this command
         - `sudo apt install php-cli`
-    - Continue installation process of [getcomposer](https://getcomposer.org/download/) for linux
+    - Continue installation process of [Composer](https://getcomposer.org/download/) for linux
     - After running above instruction you should have `composer.phar` in your working directory
     - Now you can run composer `./composer.phar`
 
