@@ -25,22 +25,24 @@
         - [**`sha1_file()`**](str-hash-file.php)
         - [`str_rot13()`](str-hash-crypt.php)
     - **Calculation**
-        - `crc32()`
-        - `similar_text()`
-        - `soundex()`
-        - `levenshtein()`
-        - `metaphone()`
+        - [`crc32()`](str-calc-crc.php)
+        - [**`similar_text()`**](str-calc-similar-text.php)
+        - [`soundex()`](str-calc-soundex.php)
+        - [`levenshtein()`](str-calc-levenshtein.php)
+        - [`metaphone()`](str-calc-metaphone.php)
     - **Manipulate**
-        - **`str_replace()`**
-            - `str_ireplace()`
-                - Case insensitive
-        - **`implode()`**
-            - **`join()`** <small><sub>ALIAS</sub></small>
-        - **`explode()`**
-            - **`str_split()`**
-        - **`strrev()`**
-        - `chop()`
-        - `chunk_split()`
+        - [**`str_replace()`**](str-man-replace.php)
+            - [`str_ireplace()`](str-man-replace.php)
+                >> Case insensitive
+        - [**`implode()`**](str-man-split-join.php)
+            - [`join()`](str-man-split-join.php) <small><sub>ALIAS</sub></small>
+        - [**`explode()`**](str-man-split-join.php)
+        - [`str_split()`](str-man-split-join.php)
+        - [**`strrev()`**](str-man-str-rev.php)
+        - [**`chop()`**](str-man-chop.php)
+        - [**`chunk_split()`**](str-man-chunk-split.php)
+        - `str_repeat()`
+        - `str_shuffle()`
     - **HTML**
         - html_entity_decode()
         - htmlspecialchars_decode()
@@ -92,8 +94,6 @@
         - sscanf()
         - str_getcsv() -> *This is more like array functionality*
         - str_pad()
-        - str_repeat()
-        - str_shuffle()
         - strcmp()
             - strcasecmp()
             - strcoll()
