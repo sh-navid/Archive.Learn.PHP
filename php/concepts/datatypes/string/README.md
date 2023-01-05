@@ -3,25 +3,25 @@
 ### String
 - **Functions**
     - **Output**
-        - **`echo()`**
-        - **`print()`**
-        - `printf()`
+        - [**`echo()`**](str-output-echo.php)
+        - [**`print()`**](str-output-print.php)
+        - [**`printf()`**](str-output-printf.php)
     - **Count**
-        - **`strlen()`**
-        - **`count_chars()`**
-        - `str_word_count()`
+        - [**`strlen()`**](str-count-len.php)
+        - [**`count_chars()`**](str-count-chars.php)
+        - [**`str_word_count()`**](str-count-word.php)
     - **Cast/Convert**
-        - **`chr()`**
-        - **`ord()`**
-        - `bin2hex()`
-        - `hex2bin()`
-        - `convert_uudecode()`
-        - `convert_uuencode()`
+        - [**`chr()`**](str-conv-char-ord.php)
+        - [**`ord()`**](str-conv-char-ord.php)
+        - [`bin2hex()`](str-conv-bin-hex.php)
+        - [`hex2bin()`](str-conv-bin-hex.php)
+        - [`convert_uudecode()`](str-conv-uu-encode-decode.php)
+        - [`convert_uuencode()`](str-conv-uu-encode-decode.php)
     - **Hash**
-        - `crypt()`
-        - `md5()`
-        - `md5_file()`
-        - `sha1()`
+        - [`crypt()`](str-hash-crypt.php)
+        - [`md5()`](str-hash-crypt.php)
+        - [`md5_file()`](str-hash-file.php)
+        - [`sha1()`](str-hash-crypt.php)
         - `sha1_file()`
         - str_rot13()
     - **Calculation**
