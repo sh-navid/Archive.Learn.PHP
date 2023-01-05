@@ -1,6 +1,7 @@
 <?php
 
-function myFunction(){
+function myFunction()
+{
     echo "This is from my function \n";
 }
 

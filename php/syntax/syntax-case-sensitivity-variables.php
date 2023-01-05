@@ -1,7 +1,7 @@
 <?php
 
-$test="test";
-$Test="Test";
-$tesT="tesT";
+$test = "test";
+$Test = "Test";
+$tesT = "tesT";
 
-echo $tesT . " - " . $Test . " - " . $tesT;
+echo $test . " - " . $Test . " - " . $tesT;
