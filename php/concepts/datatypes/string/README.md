@@ -18,12 +18,12 @@
         - [`convert_uudecode()`](str-conv-uu-encode-decode.php)
         - [`convert_uuencode()`](str-conv-uu-encode-decode.php)
     - **Hash**
-        - [`crypt()`](str-hash-crypt.php)
-        - [`md5()`](str-hash-crypt.php)
-        - [`md5_file()`](str-hash-file.php)
-        - [`sha1()`](str-hash-crypt.php)
-        - `sha1_file()`
-        - str_rot13()
+        - [**`crypt()`**](str-hash-crypt.php)
+        - [**`md5()`**](str-hash-crypt.php)
+        - [**`md5_file()`**](str-hash-file.php)
+        - [**`sha1()`**](str-hash-crypt.php)
+        - [**`sha1_file()`**](str-hash-file.php)
+        - [`str_rot13()`](str-hash-crypt.php)
     - **Calculation**
         - `crc32()`
         - `similar_text()`
