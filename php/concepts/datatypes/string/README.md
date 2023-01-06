@@ -80,9 +80,9 @@
         - [`addcslashes()`](str-slash.php)
             - [`stripcslashes()`](str-slash.php)
     - **Compare**
-        - `strcmp()`
-            - `strncmp()`
-                - `strnatcmp()`
+        - [`strcmp()`](str-cmp.php)
+            - [`strncmp()`](str-cmp.php)
+                - [`strnatcmp()`](str-cmp.php)
             - `strcasecmp()`
                 - `strncasecmp()`
                     - `strnatcasecmp()`
