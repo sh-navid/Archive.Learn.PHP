@@ -69,6 +69,7 @@
             - [`stristr()`](str-str.php)
             - [`strchr()`](str-chr.php) <small><sub>ALIAS</sub></small>
             - [`strrchr()`](str-chr.php)
+        - [`strpbrk()`](str-other-pbrk.php)
     - **Substr**
         - [**`substr()`**](str-sub.php)
         - [`substr_compare()`](str-sub-cmp.php)
@@ -89,22 +90,21 @@
             - `strcoll()`
                 >> Like strcmp but not binary safe ???
     - **Other**
-        - `setlocale()`
+        - `setlocale()` -> CHECK LATER
         - ~~`convert_cyr_string()`~~
-        - `parse_str()`
-        - `strip_tags()`
-        - `fprintf()`
-        - `sprintf()`
-            - `sscanf()`
-        - `nl_langinfo()`
+        - `parse_str()` -> CHECK LATER
+        - `strip_tags()` -> CHECK LATER
+        - `fprintf()` -> CHECK LATER
+        - `sprintf()` -> CHECK LATER
+            - `sscanf()` -> CHECK LATER
+        - `nl_langinfo()` -> CHECK LATER
         - [`nl2br()`](str-other-newline-2-br.php)
-        - `strcspn()`
         - `quoted_printable_encode()`
             - `quoted_printable_decode()`
-        - `quotemeta()`
-        - `str_getcsv()`
-        - `str_pad()`
-        - `strpbrk()`
-        - `strspn()`
+        - [**`quotemeta()`**](str-quote-meta.php)
+        - [**`str_getcsv()`**](str-other-csv.php)
+        - [**`str_pad()`**](str-other-pad.php)
+        - [`strspn()`](str-other-spn.php)
+            - [`strcspn()`](str-other-spn.php)
         - [`strtok()`](str-other-token.php)
         - [**`strtr()`**](str-translate.php)
