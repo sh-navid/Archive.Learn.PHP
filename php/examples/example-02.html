@@ -14,14 +14,23 @@
         <hr />
     </div>
     <script>
-        fetch("example-02.php?data=true")
+        d = document.querySelector("div")
+
+        fetch("example-02.php?data=array")
             .then((res) => res.text())
             .then((res) => {
-                console.log(res)
-                d = document.querySelector("div")
                 res = res.split(",")
                 res.forEach(element => {
                     d.innerHTML += element + "<hr/>"
+                });
+            })
+
+
+        fetch("example-02.php?data=json")
+            .then((res) => res.json())
+            .then((res) => {
+                res.forEach(element => {
+                    d.innerHTML += element.Title + " - " + element.Price + "<hr/>"
                 });
             })
     </script>
