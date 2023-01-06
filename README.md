@@ -20,6 +20,7 @@
     - [String](php/concepts/datatypes/string/README.md)
 - [Function](php/concepts/function/README.md)
 - [Scope](php/concepts/scope/README.md)
+- [Math](php/concepts/math/math.php)
 
 
 # Laravel Framework
