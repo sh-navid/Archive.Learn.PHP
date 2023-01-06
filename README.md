@@ -11,6 +11,7 @@
     - `php -S 0.0.0.0:8000 example-01.php`
 - [Simple CSR Client](php/examples/example-02.html), [CSR Server](php/examples/example-02.php)
     - `php -S 0.0.0.0:8000 example-02.php`
+- [File uploader form](php/examples/example-03.html), [File uploader service](php/examples/example-03.php)
 
 ## Headings
 - [Output](php/concepts/output/README.md)
@@ -21,6 +22,7 @@
 - [Function](php/concepts/function/README.md)
 - [Scope](php/concepts/scope/README.md)
 - [Math](php/concepts/math/math.php)
+- [JSON](php/concepts/other/json.php)
 
 
 # Laravel Framework
