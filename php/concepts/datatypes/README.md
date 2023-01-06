@@ -40,3 +40,6 @@
     - [`is_nan()`](typecheck-is-nan.php)
     - [`is_finite()`](typecheck-is-nan.php)
     - [`is_infinite()`](typecheck-is-nan.php)
+- Type Cast
+    - [`String to int`](typecast-str-to-int.php)
+    - [`Float to int`](typecast-float-to-int.php)
