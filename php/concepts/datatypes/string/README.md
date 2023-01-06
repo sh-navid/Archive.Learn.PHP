@@ -80,13 +80,14 @@
         - [`addcslashes()`](str-slash.php)
             - [`stripcslashes()`](str-slash.php)
     - **Compare**
-        - [`strcmp()`](str-cmp.php)
+        - [**`strcmp()`**](str-cmp.php)
             - [`strncmp()`](str-cmp.php)
                 - [`strnatcmp()`](str-cmp.php)
             - `strcasecmp()`
                 - `strncasecmp()`
                     - `strnatcasecmp()`
             - `strcoll()`
+                >> Like strcmp but not binary safe ???
     - **Other**
         - `setlocale()`
         - `convert_cyr_string()`
