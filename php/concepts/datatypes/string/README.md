@@ -48,7 +48,7 @@
             - [**`html_entity_decode()`**](str-html.php)
         - [`htmlspecialchars()`](str-html.php)
             - [`htmlspecialchars_decode()`](str-html.php)
-        - `get_html_translation_table()`
+        - [`get_html_translation_table()`](str-html-trans-table.php)
     - **Format**
         - [**`strtolower()`**](str-format-upper-lower.php)
         - [**`strtoupper()`**](str-format-upper-lower.php)
@@ -61,48 +61,47 @@
         - [`ltrim()`](str-trim.php)
         - [`rtrim()`](str-trim.php)
     - **Search**
-        - strpos()
-            - stripos()
-        - strrpos()
-            - strripos()
-        - strstr()
-            - stristr()
-            - strchr() <small><sub>ALIAS</sub></small>
-            - strrchr()
+        - [**`strpos()`**](str-search.php)
+            - [`stripos()`](str-search.php)
+        - [**`strrpos()`**](str-search.php)
+            - [`strripos()`](str-search.php)
+        - `strstr()`
+            - `stristr()`
+            - `strchr()` <small><sub>ALIAS</sub></small>
+            - `strrchr()`
     - **Substr**
-        - substr()
-        - substr_compare()
-        - substr_count()
-        - substr_replace()
+        - `substr()`
+        - `substr_compare()`
+        - `substr_count()`
+        - `substr_replace()`
     - **Other**
-        - setlocale()
-        - convert_cyr_string()
-        - parse_str()
-        - strip_tags()
-        - addslashes()
-        - addcslashes()
-        - stripcslashes()
-        - fprintf()
-        - nl_langinfo()
-        - stripslashes()
-        - nl2br()
-        - strcspn()
-        - quoted_printable_decode()
-        - quoted_printable_encode()
-        - quotemeta()
-        - sprintf()
-        - sscanf()
-        - str_getcsv() -> *This is more like array functionality*
-        - str_pad()
-        - strcmp()
-            - strcasecmp()
-            - strcoll()
-        - strnatcasecmp()
-        - strnatcmp()
-        - strncasecmp()
-        - strncmp()
-        - strpbrk()
-        - strspn()
-        - strtok()
-        - strtr()
-        
+        - `setlocale()`
+        - `convert_cyr_string()`
+        - `parse_str()`
+        - `strip_tags()`
+        - `addslashes()`
+            - `stripslashes()`
+        - `addcslashes()`
+            - `stripcslashes()`
+        - `fprintf()`
+        - `sprintf()`
+            - `sscanf()`
+        - `nl_langinfo()`
+        - `nl2br()`
+        - `strcspn()`
+        - `quoted_printable_encode()`
+            - `quoted_printable_decode()`
+        - `quotemeta()`
+        - `str_getcsv()` -> *This is more like array functionality*
+        - `str_pad()`
+        - `strcmp()`
+            - `strncmp()`
+                - `strnatcmp()`
+            - `strcasecmp()`
+                - `strncasecmp()`
+                    - `strnatcasecmp()`
+            - `strcoll()`
+        - `strpbrk()`
+        - `strspn()`
+        - `strtok()`
+        - `strtr()`
