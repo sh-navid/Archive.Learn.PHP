@@ -65,10 +65,10 @@
             - [`stripos()`](str-search.php)
         - [**`strrpos()`**](str-search.php)
             - [`strripos()`](str-search.php)
-        - `strstr()`
-            - `stristr()`
-            - `strchr()` <small><sub>ALIAS</sub></small>
-            - `strrchr()`
+        - [**`strstr()`**](str-str.php)
+            - [`stristr()`](str-str.php)
+            - [`strchr()`](str-chr.php) <small><sub>ALIAS</sub></small>
+            - [`strrchr()`](str-chr.php)
     - **Substr**
         - `substr()`
         - `substr_compare()`

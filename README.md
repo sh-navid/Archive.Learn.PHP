@@ -6,6 +6,10 @@
 - For quick run of scripts:
     - You can use ***VSCode*** + ***A code runner extension***.
 
+## Run simple PHP example
+- [Simple Example](php/examples/example-01.php)
+- `php -S 0.0.0.0:8000 example-01.php`
+
 ## Headings
 - [Output](php/concepts/output/README.md)
 - [Syntax](php/syntax/README.md)
