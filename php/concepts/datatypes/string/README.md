@@ -70,10 +70,10 @@
             - [`strchr()`](str-chr.php) <small><sub>ALIAS</sub></small>
             - [`strrchr()`](str-chr.php)
     - **Substr**
-        - `substr()`
-        - `substr_compare()`
-        - `substr_count()`
-        - `substr_replace()`
+        - [**`substr()`**](str-sub.php)
+        - [`substr_compare()`](str-sub-cmp.php)
+        - [**`substr_count()`**](str-sub.php)
+        - [`substr_replace()`](str-sub-rep.php)
     - **Other**
         - `setlocale()`
         - `convert_cyr_string()`
