@@ -75,10 +75,18 @@
         - [**`substr_count()`**](str-sub.php)
         - [`substr_replace()`](str-sub-rep.php)
     - **Slash**
-        - [`addslashes()`](str-slash.php)
-            - [`stripslashes()`](str-slash.php)
-        - `addcslashes()`
-            - `stripcslashes()`
+        - [**`addslashes()`**](str-slash.php)
+            - [**`stripslashes()`**](str-slash.php)
+        - [`addcslashes()`](str-slash.php)
+            - [`stripcslashes()`](str-slash.php)
+    - **Compare**
+        - `strcmp()`
+            - `strncmp()`
+                - `strnatcmp()`
+            - `strcasecmp()`
+                - `strncasecmp()`
+                    - `strnatcasecmp()`
+            - `strcoll()`
     - **Other**
         - `setlocale()`
         - `convert_cyr_string()`
@@ -95,13 +103,6 @@
         - `quotemeta()`
         - `str_getcsv()` -> *This is more like array functionality*
         - `str_pad()`
-        - `strcmp()`
-            - `strncmp()`
-                - `strnatcmp()`
-            - `strcasecmp()`
-                - `strncasecmp()`
-                    - `strnatcasecmp()`
-            - `strcoll()`
         - `strpbrk()`
         - `strspn()`
         - `strtok()`
