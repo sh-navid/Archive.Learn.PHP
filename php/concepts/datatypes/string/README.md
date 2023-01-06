@@ -74,15 +74,16 @@
         - [`substr_compare()`](str-sub-cmp.php)
         - [**`substr_count()`**](str-sub.php)
         - [`substr_replace()`](str-sub-rep.php)
+    - **Slash**
+        - [`addslashes()`](str-slash.php)
+            - [`stripslashes()`](str-slash.php)
+        - `addcslashes()`
+            - `stripcslashes()`
     - **Other**
         - `setlocale()`
         - `convert_cyr_string()`
         - `parse_str()`
         - `strip_tags()`
-        - `addslashes()`
-            - `stripslashes()`
-        - `addcslashes()`
-            - `stripcslashes()`
         - `fprintf()`
         - `sprintf()`
             - `sscanf()`
