@@ -40,26 +40,26 @@
         - [`str_split()`](str-man-split-join.php)
         - [**`strrev()`**](str-man-str-rev.php)
         - [**`chop()`**](str-man-chop.php)
-        - [**`chunk_split()`**](str-man-chunk-split.php)
-        - `str_repeat()`
-        - `str_shuffle()`
+        - [`chunk_split()`](str-man-chunk-split.php)
+        - [`str_repeat()`](str-man-repeat.php)
+        - [`str_shuffle()`](str-man-shuffle.php)
     - **HTML**
-        - html_entity_decode()
-        - htmlspecialchars_decode()
-        - get_html_translation_table()
-        - htmlspecialchars()
-        - htmlentities()
+        - [**`htmlentities()`**](str-html.php)
+            - [**`html_entity_decode()`**](str-html.php)
+        - [`htmlspecialchars()`](str-html.php)
+            - [`htmlspecialchars_decode()`](str-html.php)
+        - `get_html_translation_table()`
     - **Format**
-        - strtolower()
-        - strtoupper()
-        - lcfirst()
-        - localeconv()
-        - money_format()
-        - number_format()
+        - [**`strtolower()`**](str-format-upper-lower.php)
+        - [**`strtoupper()`**](str-format-upper-lower.php)
+        - [`lcfirst()`](str-format-lc-first.php)
+        - [`localeconv()`](str-format-locale-conv.php)
+        - [~~`money_format()`~~](str-format-money.php)
+        - [**`number_format()`**](str-format-number.php)
     - **Trim**
-        - **`trim()`**
-        - `ltrim()`
-        - `rtrim()`
+        - [**`trim()`**](str-trim.php)
+        - [`ltrim()`](str-trim.php)
+        - [`rtrim()`](str-trim.php)
     - **Search**
         - strpos()
             - stripos()
