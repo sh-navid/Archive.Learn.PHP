@@ -7,7 +7,8 @@
     - You can use ***VSCode*** + ***A code runner extension***.
 
 ## Run simple PHP example
-- [Simple Example](php/examples/example-01.php)
+- [Simple SSR Example](php/examples/example-01.php)
+- [Simple CSR Client](php/examples/example-02.html), [CSR Server](php/examples/example-02.php)
 - `php -S 0.0.0.0:8000 example-01.php`
 
 ## Headings

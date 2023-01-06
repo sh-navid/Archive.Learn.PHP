@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <h1>Home Page</h1>
+    <h1>Home Page (SSR)</h1>
     <?php for ($i = 0; $i < 10; $i++) echo '<span>' . $i . '</span>' ?>
 
     <?php for ($i = 0; $i < 10; $i++) : ?>
