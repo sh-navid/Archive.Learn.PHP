@@ -90,21 +90,21 @@
                 >> Like strcmp but not binary safe ???
     - **Other**
         - `setlocale()`
-        - `convert_cyr_string()`
+        - ~~`convert_cyr_string()`~~
         - `parse_str()`
         - `strip_tags()`
         - `fprintf()`
         - `sprintf()`
             - `sscanf()`
         - `nl_langinfo()`
-        - `nl2br()`
+        - [`nl2br()`](str-other-newline-2-br.php)
         - `strcspn()`
         - `quoted_printable_encode()`
             - `quoted_printable_decode()`
         - `quotemeta()`
-        - `str_getcsv()` -> *This is more like array functionality*
+        - `str_getcsv()`
         - `str_pad()`
         - `strpbrk()`
         - `strspn()`
-        - `strtok()`
-        - `strtr()`
+        - [`strtok()`](str-other-token.php)
+        - [**`strtr()`**](str-translate.php)
