@@ -25,6 +25,13 @@
         ["Title" => "Book 03", "Price" => 3000],
     ]
     ?>
+
+    <?php foreach ($data as $row) : ?>
+        <div>
+            <h4><?= $row["Title"] ?></h4>
+            <h5>$<?= $row["Price"] ?></h5>
+        </div>
+    <?php endforeach ?>
 </body>
 
 </html>
