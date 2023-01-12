@@ -17,6 +17,7 @@
     - `imagecolorallocatealpha()`
 - Pixels
     - `imagecolorat()`
+    - imagesetpixel
 - Manipulate
     - [`imagecopy()`](gd-image-copy.php)
         >> Copy part of image
@@ -25,7 +26,8 @@
     - [`imagedestroy()`](gd-draw-arc.php)
     - [`imageflip()`](gd-image-flip.php)
     - [`imagerotate()`](gd-image-rotate.php)
-    - [imagescale()](gd-image-scale.php)
+    - [`imagescale()`](gd-image-scale.php)
+    - [`imagefilter()`](gd-image-filter.php)
 - Draw
     - [`imagearc()`](gd-draw-arc.php)
         - `imagefilledarc()`
@@ -45,5 +47,9 @@
     - `imagefttext()`
     - `imageline()`
         - imagesetbrush
+        - imagesetstyle
+        - imagesetthickness
+    - imagesettile
+    - imagettftext
 - Other
     - [`getimagesize()`](gd-image-size.php)
