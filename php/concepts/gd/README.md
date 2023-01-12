@@ -43,14 +43,11 @@
     - `imagepolygon()`
         - `imageopenpolygon()`
         - `imagefilledpolygon()`
-    - imagerectangle
+    - [`imagerectangle()`](gd-draw-rectangle.php)
         - `imagefilledrectangle()`
-    - `imagefttext()`
     - [`imageline()`](gd-draw-line.php)
-        - `imagesetbrush()`
-        - `imagesetstyle()`
         - [`imagesetthickness()`](gd-draw-line.php)
-    - imagesettile
-    - imagettftext
+    - `imagefttext()`
+    - `imagettftext()`
 - Other
     - [`getimagesize()`](gd-image-size.php)

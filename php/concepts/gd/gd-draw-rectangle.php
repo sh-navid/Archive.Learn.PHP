@@ -6,9 +6,9 @@ $color = imagecolorallocate($img, 100, 100, 100);
 
 imageantialias($img, true);
 
-imagesetthickness($img, 5);
+imagesetthickness($img,20);
 
-imageline($img, 0, 0, 200, 200, $color);
+imagerectangle($img, 10, 10, 190, 190, $color);
 
 imagepng($img, __DIR__ . "/test-image.png");
 
