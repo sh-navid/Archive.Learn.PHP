@@ -27,6 +27,4 @@
         >> Draw a dashed line
     - [`imageellipse()`](gd-draw-arc.php)
 - Other
-    - `getimagesize()`
-    - `image_type_to_extension()`
-    - `image_type_to_mime_type()`
+    - [`getimagesize()`](gd-image-size.php)
