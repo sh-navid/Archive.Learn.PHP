@@ -1,10 +1,20 @@
 # PHP
 ## Datatype
-### Array
+### [Array](https://www.php.net/manual/en/ref.array.php)
+- [ ] TODO: CHECKOUT EVERY FUNCTION IN THIS THREAD
 - Types
     - Indexed
     - Associative 
     - Multidimensional
 - [`array()`](array-output.php)
-- `each()`
-- `count()`
+- [`each()`](array-each.php)
+- [`count()`](array-count.php)
+- [`array_change_key_case()`](array-change-case.php)
+- [`array_chunk()`](array-chuck.php)
+- [`array_combine()`](array-combine.php)
+- [`array_diff()`](array-diff.php)
+    - [`array_diff_key()`](array-diff.php)
+- [`array_flip()`](array-flip.php)
+- array_fill 
+    - array_fill_keys
+- array_filter
