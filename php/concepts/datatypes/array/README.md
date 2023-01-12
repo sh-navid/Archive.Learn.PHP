@@ -38,4 +38,4 @@
 - array_reduce 
     - array_replace_recursive
 - array_replace
-
+- array_shift
