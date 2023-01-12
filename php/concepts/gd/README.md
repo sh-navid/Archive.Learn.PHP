@@ -46,10 +46,10 @@
     - imagerectangle
         - `imagefilledrectangle()`
     - `imagefttext()`
-    - `imageline()`
-        - imagesetbrush
-        - imagesetstyle
-        - imagesetthickness
+    - [`imageline()`](gd-draw-line.php)
+        - `imagesetbrush()`
+        - `imagesetstyle()`
+        - [`imagesetthickness()`](gd-draw-line.php)
     - imagesettile
     - imagettftext
 - Other
