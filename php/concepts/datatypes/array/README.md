@@ -22,6 +22,9 @@
 - `array_pop()`
 - `array_push()`
 - `array_keys()`
+- `array_rand()` -> like py choice
+- `array_reverse()`
+- array_search
 - array_map
 - array_fill 
     - array_fill_keys
@@ -31,4 +34,8 @@
 - array_merge 
     - array_merge_recursive 
 - array_multisort 
+- array_product 
+- array_reduce 
+    - array_replace_recursive
+- array_replace
 
