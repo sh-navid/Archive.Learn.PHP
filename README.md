@@ -24,7 +24,8 @@
 - [Scope](php/concepts/scope/README.md)
 - [Math](php/concepts/math/math.php)
 - [JSON](php/concepts/other/json.php)
-
+- [GD](php/concepts/gd/README.md)
+- [Constant](php/concepts/constant/README.md)
 
 # Laravel Framework
 - Latest version [9.x](https://laravel.com/docs/9.x)
