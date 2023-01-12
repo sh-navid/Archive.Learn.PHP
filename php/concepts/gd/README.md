@@ -2,25 +2,25 @@
 ## [Graphic Draw](https://www.php.net/manual/en/book.image.php) (GD)
 - [ ] TODO: CHECKOUT EVERY FUNCTION IN THIS THREAD
 - Output
-    - `imagebmp()`
     - [`imagepng()`](gd-draw-dashed-line.php)
+        - `imagebmp()`
 - Image
-    - `imagecreate()`
     - [`imagecreatetruecolor()`](gd-draw-dashed-line.php)
+        - `imagecreate()`
     - [`imageantialias()`](gd-draw-arc.php)
-    - `imagecreatefromjpeg()`
-    - `imagecreatefrompng()`
+    - [`imagecreatefrompng()`](gd-image-crop.php)
+        - `imagecreatefromjpeg()`
 - Set Color
-    - `imagecolorallocate()`
+    - [`imagecolorallocate()`](gd-draw-arc.php)
     - `imagecolorallocatealpha()`
 - Pixels
     - `imagecolorat()`
 - Manipulate
-    - `imagecopy()`
+    - [`imagecopy()`](gd-image-copy.php)
         >> Copy part of image
     - [`imagecrop()`](gd-image-crop.php)
         >> Crop a rect
-    - `imagedestroy()`
+    - [`imagedestroy()`](gd-draw-arc.php)
 - Draw
     - [`imagearc()`](gd-draw-arc.php)
     - ~~[`imagedashedline()`](gd-draw-dashed-line.php)~~
