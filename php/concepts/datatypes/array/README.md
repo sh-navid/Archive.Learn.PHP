@@ -15,6 +15,14 @@
 - [`array_diff()`](array-diff.php)
     - [`array_diff_key()`](array-diff.php)
 - [`array_flip()`](array-flip.php)
+- [`array_key_first()`](array-key-first-last.php)
+- [`array_key_last()`](array-key-first-last.php)
+- [`array_key_exists()`](array-key-first-last.php)
+- array_keys
+- array_map
 - array_fill 
     - array_fill_keys
 - array_filter
+- array_intersect 
+- array_is_list 
+- array_merge_recursive 
