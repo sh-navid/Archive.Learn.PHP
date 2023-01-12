@@ -18,11 +18,17 @@
 - [`array_key_first()`](array-key-first-last.php)
 - [`array_key_last()`](array-key-first-last.php)
 - [`array_key_exists()`](array-key-first-last.php)
-- array_keys
+- `array_pad()`
+- `array_pop()`
+- `array_push()`
+- `array_keys()`
 - array_map
 - array_fill 
     - array_fill_keys
 - array_filter
 - array_intersect 
 - array_is_list 
-- array_merge_recursive 
+- array_merge 
+    - array_merge_recursive 
+- array_multisort 
+
