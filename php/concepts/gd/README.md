@@ -14,10 +14,11 @@
         - `imagecreatefromjpeg()`
 - Set Color
     - [`imagecolorallocate()`](gd-draw-arc.php)
-    - `imagecolorallocatealpha()`
+        - `imagecolorallocatealpha()`
 - Pixels
-    - `imagecolorat()`
-    - imagesetpixel
+    - [`imagecolorat()`](gd-image-color-at.php)
+        - [`imagecolorsforindex()`](gd-image-color-at.php)
+    - [`imagesetpixel()`](dg-image-set-pixel.php)
 - Manipulate
     - [`imagecopy()`](gd-image-copy.php)
         >> Copy part of image
