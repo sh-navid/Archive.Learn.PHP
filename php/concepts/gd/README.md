@@ -4,6 +4,8 @@
 - Output
     - [`imagepng()`](gd-draw-dashed-line.php)
         - `imagebmp()`
+        - `imagegif()`
+        - `imagejpeg()`
 - Image
     - [`imagecreatetruecolor()`](gd-draw-dashed-line.php)
         - `imagecreate()`
@@ -22,6 +24,8 @@
         >> Crop a rect
     - [`imagedestroy()`](gd-draw-arc.php)
     - [`imageflip()`](gd-image-flip.php)
+    - [`imagerotate()`](gd-image-rotate.php)
+    - imagescale
 - Draw
     - [`imagearc()`](gd-draw-arc.php)
         - `imagefilledarc()`
@@ -29,11 +33,17 @@
         >> Draw a dashed line
     - [`imageellipse()`](gd-draw-arc.php)
         - `imagefilledellipse()`
-    - `imagefill()`
+    - [`imagefill()`](gd-image-flood-fill.php)
         >> Flood Fill
         - `imagefilltoborder()`
             >> Flood Fill to defined color
-    - `imagefilledpolygon()`
-    - `imagefilledrectangle()`
+    - `imagepolygon()`
+        - `imageopenpolygon()`
+        - `imagefilledpolygon()`
+    - imagerectangle
+        - `imagefilledrectangle()`
+    - `imagefttext()`
+    - `imageline()`
+        - imagesetbrush
 - Other
     - [`getimagesize()`](gd-image-size.php)
