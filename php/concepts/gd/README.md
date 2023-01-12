@@ -21,10 +21,19 @@
     - [`imagecrop()`](gd-image-crop.php)
         >> Crop a rect
     - [`imagedestroy()`](gd-draw-arc.php)
+    - [`imageflip()`](gd-image-flip.php)
 - Draw
     - [`imagearc()`](gd-draw-arc.php)
+        - `imagefilledarc()`
     - ~~[`imagedashedline()`](gd-draw-dashed-line.php)~~
         >> Draw a dashed line
     - [`imageellipse()`](gd-draw-arc.php)
+        - `imagefilledellipse()`
+    - `imagefill()`
+        >> Flood Fill
+        - `imagefilltoborder()`
+            >> Flood Fill to defined color
+    - `imagefilledpolygon()`
+    - `imagefilledrectangle()`
 - Other
     - [`getimagesize()`](gd-image-size.php)
