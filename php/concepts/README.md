@@ -13,3 +13,7 @@
 - Conditional
     - Ternary [`?:`](op-logical-and.php)
     - Null Coalescing [`??`](op-null.php)
+- Array
+    - Union [`+`](op-array-union.php)
+    - Equality [`== != <>`](op-array-eq.php)
+    - Identity [`=== !==`](op-array-eq.php)
