@@ -70,6 +70,7 @@
             - [`strchr()`](str-chr.php) <small><sub>ALIAS</sub></small>
             - [`strrchr()`](str-chr.php)
         - [`strpbrk()`](str-other-pbrk.php)
+        - `str_contains()` <small><sub>PHP 8</sub></small>
     - **Substr**
         - [**`substr()`**](str-sub.php)
         - [`substr_compare()`](str-sub-cmp.php)
