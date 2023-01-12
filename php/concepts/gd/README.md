@@ -25,7 +25,7 @@
     - [`imagedestroy()`](gd-draw-arc.php)
     - [`imageflip()`](gd-image-flip.php)
     - [`imagerotate()`](gd-image-rotate.php)
-    - imagescale
+    - [imagescale()](gd-image-scale.php)
 - Draw
     - [`imagearc()`](gd-draw-arc.php)
         - `imagefilledarc()`
