@@ -24,7 +24,7 @@
 - [Scope](php/concepts/scope/README.md)
 - [Math](php/concepts/math/math.php)
 - [JSON](php/concepts/other/json.php)
-- [Operators](php/concepts/README.md)
+- [Operators](php/concepts/operators/README.md)
 - [GD](php/concepts/gd/README.md)
 - [Constant](php/concepts/constant/README.md)
 - [Condition](php/concepts/condition/README.md)
