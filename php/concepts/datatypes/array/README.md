@@ -18,7 +18,7 @@
 - [`array_key_first()`](array-key-first-last.php)
 - [`array_key_last()`](array-key-first-last.php)
 - [`array_key_exists()`](array-key-first-last.php)
-- `array_pad()`
+- [`array_pad()`](array-pad.php)
 - `array_pop()`
 - `array_push()`
 - `array_keys()`
