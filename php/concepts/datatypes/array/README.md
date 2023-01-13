@@ -74,13 +74,14 @@
         - `array_merge_recursive()`
     - `array_multisort()`
     - `array_reduce()`
-        - `array_replace_recursive()`
-    - `array_walk()`
+    - [`array_walk()`](array-walk.php)
         - `array_walk_recursive()`
-    - `array_replace()`
-    - `array_slice()`
-        - `array_splice()` 
-    - `array_unique()`
+            >> To use with deeper arrays like array in array
+    - [`array_replace()`](array-replace.php)
+        - `array_replace_recursive()`
+    - [`array_slice()`](array-slice.php)
+        - [`array_splice()`](array-slice.php)
+    - [`array_unique()`](array-uq.php)
         >> Remove duplicates
     - [`in_array()`](array-in.php)
     - [`range()`](array-range.php)
