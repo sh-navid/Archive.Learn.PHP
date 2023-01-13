@@ -8,13 +8,14 @@
     <title>Document</title>
 
     <form action="/">
-        <input type="text" name="user" value="default get form" />
+        <input type="text" name="user" value="default get data" />
+        <input type="file" name="myfile" />
         <input type="submit" value="Submit GET Request" />
     </form>
 
     <form action="/" method="post" enctype="multipart/form-data">
-        <input type="text" name="user" value="default post form" />
-        <input type="file" name="myfile"/>
+        <input type="text" name="user" value="default post data" />
+        <input type="file" name="myfile" />
         <input type="submit" value="Submit POST Request" />
     </form>
 </head>
@@ -26,6 +27,8 @@
     // And in browser run this
     // http://localhost:8000/?data=true&age=14
     ?>
+
+    <?php session_start(); ?>
 
     <h1>SERVER</h1>
     REQUEST_METHOD=> <?= $_SERVER['REQUEST_METHOD'] ?>
@@ -44,6 +47,7 @@
     <?php
     foreach ($_GET as $key => $value) {
         echo $key . "=>" . $value . "<br/>";
+        $_SESSION[$key] = "[" . $value . "]";
     }
     ?>
     <hr />
@@ -64,6 +68,24 @@
         echo $key . "=>" . print_r($value) . "<br/>";
     }
     ?>
+    <hr />
+
+    <h1>SESSION</h1>
+    <?php
+    foreach ($_SESSION as $key => $value) {
+        echo $key . "=>" . $value . "<br/>";
+        $_SESSION[$key] .= ".";
+    }
+    ?>
+    <hr />
+
+    <h1>COOKIE</h1>
+    <?php
+    foreach ($_COOKIE as $key => $value) {
+        echo $key . "=>" . $value . "<br/>";
+    }
+    ?>
+    <hr />
 </body>
 
 </html>

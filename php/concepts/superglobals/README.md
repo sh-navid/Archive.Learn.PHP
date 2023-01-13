@@ -7,5 +7,8 @@
 - [`$_FILES`](sg-request.php)
 - `$_COOKIE`
 - [`$_SERVER`](sg-server.php)
-- `$_SESSION`
+- [`$_SESSION`](sg-request.php)
+    >> Store data in variable to use in multiple pages
+    >> Session can be live until you close the browser
+    - `session_start()`
 - [`$_REQUEST`](sg-request.php)
