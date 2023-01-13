@@ -9,12 +9,13 @@
 
     <form action="/">
         <input type="text" name="user" value="default get form" />
-        <input type="submit" value="Submit GET Request"/>
+        <input type="submit" value="Submit GET Request" />
     </form>
 
-    <form action="/" method="post">
+    <form action="/" method="post" enctype="multipart/form-data">
         <input type="text" name="user" value="default post form" />
-        <input type="submit" value="Submit POST Request"/>
+        <input type="file" name="myfile"/>
+        <input type="submit" value="Submit POST Request" />
     </form>
 </head>
 
@@ -52,6 +53,15 @@
     <?php
     foreach ($_POST as $key => $value) {
         echo $key . "=>" . $value . "<br/>";
+    }
+    ?>
+    <hr />
+
+
+    <h1>FILE</h1>
+    <?php
+    foreach ($_FILES as $key => $value) {
+        echo $key . "=>" . print_r($value) . "<br/>";
     }
     ?>
 </body>

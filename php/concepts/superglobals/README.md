@@ -4,7 +4,7 @@
 - [`$_GET`](sg-request.php)
 - [`$_POST`](sg-request.php)
 - [`$_ENV`](sg-env.php)
-- `$_FILES`
+- [`$_FILES`](sg-request.php)
 - `$_COOKIE`
 - [`$_SERVER`](sg-server.php)
 - `$_SESSION`
