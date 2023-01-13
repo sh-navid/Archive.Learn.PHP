@@ -11,4 +11,8 @@
     >> Store data in variable to use in multiple pages
     >> Session can be live until you close the browser
     - `session_start()`
+    - `session_unset()`
+        >> Remove all variables in session
+    - `session_destroy()`
+        >> Kill the session
 - [`$_REQUEST`](sg-request.php)
