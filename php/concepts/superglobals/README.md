@@ -1,0 +1,11 @@
+# PHP
+## Superglobals
+- [`$GLOBALS`](sg-globals.php)
+- `$_GET`
+- `$_POST`
+- `$_ENV`
+- `$_FILES`
+- `$_COOKIE`
+- [`$_SERVER`](sg-server.php)
+- `$_SESSION`
+- [`$_REQUEST`](sg-request.php)

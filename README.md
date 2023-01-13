@@ -29,6 +29,7 @@
 - [GD](php/concepts/gd/README.md)
 - [Constant](php/concepts/constant/README.md)
 - [Condition](php/concepts/condition/README.md)
+- [Superglobals](php/concepts/superglobals/README.md)
 - isset, unset
 
 # Laravel Framework
