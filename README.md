@@ -31,6 +31,7 @@
 - [Condition](php/concepts/condition/README.md)
 - [Superglobals](php/concepts/superglobals/README.md)
 - isset, unset
+- require, include
 
 # Laravel Framework
 - Latest version [9.x](https://laravel.com/docs/9.x)

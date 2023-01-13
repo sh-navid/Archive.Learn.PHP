@@ -82,6 +82,6 @@
         - `array_splice()` 
     - `array_unique()`
         >> Remove duplicates
-    - `in_array()`
-    - `range()`
-    - `shuffle()`
+    - [`in_array()`](array-in.php)
+    - [`range()`](array-range.php)
+    - [`shuffle()`](array-shuffle.php)
