@@ -11,3 +11,4 @@ echo $k2, " - ", $arr[$k2], "\n";
 // 3 - 51
 
 echo array_key_exists(3, $arr) ? "T" : "F";
+echo key_exists(3, $arr) ? "T" : "F";

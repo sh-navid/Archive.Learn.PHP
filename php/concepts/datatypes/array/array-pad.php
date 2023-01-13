@@ -1,8 +1,8 @@
 <?php
 
-$arr=[1,2,3];
+$arr = [1, 2, 3];
 
-$arr=array_pad($arr,10,22);
+$arr = array_pad($arr, 10, 22);
 
 print_r($arr);
 
