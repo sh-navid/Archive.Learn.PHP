@@ -32,6 +32,7 @@
 - [Superglobals](php/concepts/superglobals/README.md)
 - isset, unset
 - require, include
+- Callback
 
 # Laravel Framework
 - Latest version [9.x](https://laravel.com/docs/9.x)

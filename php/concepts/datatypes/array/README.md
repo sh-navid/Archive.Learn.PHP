@@ -24,6 +24,7 @@
         >> sort with natural order
     - [`natcasesort()`](array-sort.php)
         >> sort with natural order ignore-case
+    - [`array_multisort()`](array-multisort.php) ***
 - Math
     - [`array_product()`](array-math.php)
     - [`array_sum()`](array-math.php)
@@ -40,7 +41,6 @@
     - [`array_key_last()`](array-key-first-last.php)
     - [`array_key_exists()`](array-key-first-last.php)
         - [`key_exists()`] (array-key-first-last.php)
-    - `key()`
 - Value
     - [`array_values()`](array-key-value.php)
     - [`list()`](array-list.php)
@@ -63,22 +63,12 @@
     - [`array_rand()`](array-func.php)
         >> Like py choice
     - [`array_reverse()`](array-func.php)
-    - `array_search()`
-    - `array_map()`
-    - `array_fill()`
-        - `array_fill_keys()`
-    - `array_filter()`
-    - `array_intersect()` 
-    - `array_is_list()`
-    - `array_merge()`
-        - `array_merge_recursive()`
-    - `array_multisort()`
-    - `array_reduce()`
+    - [`array_reduce()`](array-reduce.php)
     - [`array_walk()`](array-walk.php)
-        - `array_walk_recursive()`
+        - `array_walk_recursive()` ***
             >> To use with deeper arrays like array in array
     - [`array_replace()`](array-replace.php)
-        - `array_replace_recursive()`
+        - `array_replace_recursive()` ***
     - [`array_slice()`](array-slice.php)
         - [`array_splice()`](array-slice.php)
     - [`array_unique()`](array-uq.php)
@@ -86,3 +76,12 @@
     - [`in_array()`](array-in.php)
     - [`range()`](array-range.php)
     - [`shuffle()`](array-shuffle.php)
+    - [`array_map()`](array-map.php)
+    - [`array_fill()`](array-fill.php)
+        - [`array_fill_keys()`](array-fill.php)
+    - `array_filter()` ***
+    - `array_intersect()` ***
+    - `array_is_list()` ***
+    - `array_merge()` ***
+        - `array_merge_recursive()` ***
+    - `array_search()` ***
