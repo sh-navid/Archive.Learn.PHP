@@ -1,8 +1,59 @@
-<?php
+<!DOCTYPE html>
+<html lang="en">
 
-// Run it using 
-// php -S 0.0.0.0:8000 sg-request.php
-// And in browser run this
-// http://localhost:8000/?data=true&age=14
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 
-print_r($_REQUEST);
+    <form action="/">
+        <input type="text" name="user" value="default get form" />
+        <input type="submit" value="Submit GET Request"/>
+    </form>
+
+    <form action="/" method="post">
+        <input type="text" name="user" value="default post form" />
+        <input type="submit" value="Submit POST Request"/>
+    </form>
+</head>
+
+<body>
+    <?php
+    // Run it using 
+    // php -S 0.0.0.0:8000 sg-request.php
+    // And in browser run this
+    // http://localhost:8000/?data=true&age=14
+    ?>
+
+    <h1>SERVER</h1>
+    REQUEST_METHOD=> <?= $_SERVER['REQUEST_METHOD'] ?>
+    <hr />
+
+    <h1>REQUEST</h1>
+    <?php
+    foreach ($_REQUEST as $key => $value) {
+        echo $key . "=>" . $value . "<br/>";
+    }
+    ?>
+    <hr />
+
+
+    <h1>GET</h1>
+    <?php
+    foreach ($_GET as $key => $value) {
+        echo $key . "=>" . $value . "<br/>";
+    }
+    ?>
+    <hr />
+
+
+    <h1>POST</h1>
+    <?php
+    foreach ($_POST as $key => $value) {
+        echo $key . "=>" . $value . "<br/>";
+    }
+    ?>
+</body>
+
+</html>
