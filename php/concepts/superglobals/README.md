@@ -1,9 +1,9 @@
 # PHP
 ## Superglobals
 - [`$GLOBALS`](sg-globals.php)
-- `$_GET`
-- `$_POST`
-- `$_ENV`
+- [`$_GET`](sg-request.php)
+- [`$_POST`](sg-request.php)
+- [`$_ENV`](sg-env.php)
 - `$_FILES`
 - `$_COOKIE`
 - [`$_SERVER`](sg-server.php)
