@@ -1,4 +1,5 @@
 # PHP
 ## OOP
-- [class](oo-class.php)
-- [onject/instance](oo-class.php)
+- [Class](oo-class.php)
+- [Onject/Instance](oo-class.php)
+- [Property](oo-class.php)
