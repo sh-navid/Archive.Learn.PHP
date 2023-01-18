@@ -33,6 +33,9 @@
 - isset, unset
 - require, include
 - Callback
+- Database
+- [Object Oriented](php/concepts/oop/README.md)
+- File
 
 # Laravel Framework
 - Latest version [9.x](https://laravel.com/docs/9.x)
