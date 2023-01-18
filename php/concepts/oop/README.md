@@ -9,3 +9,4 @@
     - Public
     - Private
     - Protected
+- [Inheritance](oo-access-mod.php)

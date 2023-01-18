@@ -3,9 +3,9 @@
 class T
 {
     // Property
-    private $pri;
-    protected $pro;
-    public $pub;
+    private $pri = "PRI";
+    protected $pro = "PRO";
+    public $pub = "PUB";
 };
 
 $p = new T();
@@ -19,3 +19,22 @@ echo $p->pub;
 
 // echo $p->pri;
 // Uncaught Error: Cannot access private property
+
+
+
+class TT extends T
+{
+    function show()
+    {
+        echo "\n".$this->pro;
+        // PRO
+
+        echo "\n".$this->pri;
+        // PHP Warning:  Undefined property: TT::$pri
+    }
+};
+$pt = new TT();
+echo $pt->pub."\n";
+// PUB
+
+$pt->show();
