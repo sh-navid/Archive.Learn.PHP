@@ -5,6 +5,11 @@ class Person
     // Property
     private $name;
 
+    function __construct($name)
+    {
+        $this->name = $name;
+    }
+
     // Method
     function get_name()
     {
@@ -17,12 +22,11 @@ class Person
     }
 };
 
-$p1 = new Person();
-$p1->set_name("[P1]");
+$p1 = new Person("P1");
 
-$p2 = new Person();
+$p2 = new Person("");
 $p2->set_name("[P2]");
 
-echo $p1->get_name() . " - " . $p2->get_name(),"\n";
+echo $p1->get_name() . " - " . $p2->get_name(), "\n";
 
 echo var_dump($p1 instanceof Person);
