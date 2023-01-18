@@ -20,6 +20,11 @@ class Person
     {
         $this->name = $name;
     }
+
+    function __destruct()
+    {
+        echo "\n".$this->name." Destroyed";
+    }
 };
 
 $p1 = new Person("P1");
@@ -28,5 +33,7 @@ $p2 = new Person("");
 $p2->set_name("[P2]");
 
 echo $p1->get_name() . " - " . $p2->get_name(), "\n";
+
+// unset($p1); to destroy object
 
 echo var_dump($p1 instanceof Person);
