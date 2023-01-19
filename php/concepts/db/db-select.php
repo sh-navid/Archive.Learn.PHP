@@ -6,7 +6,8 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-$result = $conn->query("select * from task", MYSQLI_STORE_RESULT);
+// $result = $conn->query("select * from task", MYSQLI_STORE_RESULT);
+$result = $conn->query("select * from task limit 2 offset 2", MYSQLI_STORE_RESULT);
 
 echo $result->num_rows . "\n";
 

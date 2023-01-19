@@ -7,9 +7,9 @@
     - You can use ***VSCode*** + ***A code runner extension***.
 
 ## Run simple PHP example
-- [Simple SSR Example](php/examples/example-01.php)
+- ** [Simple SSR Example](php/examples/example-01.php)
     - `php -S 0.0.0.0:8000 example-01.php`
-- [Simple CSR Client](php/examples/example-02.html), [CSR Server](php/examples/example-02.php)
+- ** [Simple CSR Client](php/examples/example-02.html), [CSR Server](php/examples/example-02.php)
     - `php -S 0.0.0.0:8000 example-02.php`
 - [File uploader form](php/examples/example-03.html), [File uploader service](php/examples/example-03.php)
 - [Captcha Generator](php/examples/example-04.php)
@@ -32,11 +32,12 @@
 - [Condition](php/concepts/condition/README.md)
 - [Superglobals](php/concepts/superglobals/README.md)
 - isset, unset
-- [Include](php/concepts/include/README.md)
-- [Database](php/concepts/db/README.md)
+- ** [Include](php/concepts/include/README.md)
+- ** [Database](php/concepts/db/README.md)
 - ** [Object Oriented](php/concepts/oop/README.md)
 - ** [Namespace](php/concepts/namespace/README.md)
 - File
+- XML
 
 # Laravel Framework
 - Latest version [9.x](https://laravel.com/docs/9.x)
