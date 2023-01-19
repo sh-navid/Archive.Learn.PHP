@@ -13,3 +13,4 @@
     - [Super](oo-final.php)
     - [Final](oo-final.php)
         >> Prevent inheritance/overriding
+- [Const](oo-const.php)
