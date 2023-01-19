@@ -10,3 +10,6 @@
     - Private
     - Protected
 - [Inheritance](oo-access-mod.php)
+    - [Super](oo-final.php)
+    - [Final](oo-final.php)
+        >> Prevent inheritance/overriding
