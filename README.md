@@ -13,6 +13,7 @@
     - `php -S 0.0.0.0:8000 example-02.php`
 - [File uploader form](php/examples/example-03.html), [File uploader service](php/examples/example-03.php)
 - [Captcha Generator](php/examples/example-04.php)
+- Simple Router Example
 
 ## Headings
 - [Output](php/concepts/output/README.md)
@@ -31,7 +32,7 @@
 - [Condition](php/concepts/condition/README.md)
 - [Superglobals](php/concepts/superglobals/README.md)
 - isset, unset
-- require, include_once, include
+- [Include](php/concepts/include/README.md)
 - Callback
 - Database
 - ** [Object Oriented](php/concepts/oop/README.md)
