@@ -14,4 +14,5 @@
     - [Final](oo-final.php)
         >> Prevent inheritance/overriding
 - [Abstraction](oo-abstract.php)
+- [Inteface](oo-interface.php)
 - [Const](oo-const.php)
