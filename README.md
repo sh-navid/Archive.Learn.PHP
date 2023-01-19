@@ -17,7 +17,7 @@
 ## Headings
 - [Output](php/concepts/output/README.md)
 - [Syntax](php/syntax/README.md)
-- [DataTypes](php/concepts/datatypes/README.md)
+- ** [DataTypes](php/concepts/datatypes/README.md)
     - [Array](php/concepts/datatypes/array/README.md)
     - [String](php/concepts/datatypes/string/README.md)
 - [Function](php/concepts/function/README.md)
@@ -31,11 +31,11 @@
 - [Condition](php/concepts/condition/README.md)
 - [Superglobals](php/concepts/superglobals/README.md)
 - isset, unset
-- require, include
+- require, include_once, include
 - Callback
 - Database
-- [Object Oriented](php/concepts/oop/README.md)
-- [Namespace](php/concepts/namespace/README.md)
+- ** [Object Oriented](php/concepts/oop/README.md)
+- ** [Namespace](php/concepts/namespace/README.md)
 - File
 
 # Laravel Framework
