@@ -16,3 +16,6 @@
 - [Abstraction](oo-abstract.php)
 - [Inteface](oo-interface.php)
 - [Const](oo-const.php)
+- [Static](oo-const.php)
+- [Traits](oo-trait.php)
+    >> To inherit multiple functionalities
