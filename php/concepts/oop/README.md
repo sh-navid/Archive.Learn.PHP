@@ -4,7 +4,8 @@
 - [Onject/Instance](oo-class.php)
 - [Property](oo-class.php)
 - [Constructor](oo-class.php)
-- [Destructor/Unset](oo-class.php)
+- [Destructor](oo-class.php)
+    - `unset()`
 - [Access Modifiers](oo-access-mod.php)
     - Public
     - Private
@@ -14,7 +15,7 @@
     - [Final](oo-final.php)
         >> Prevent inheritance/overriding
 - [Abstraction](oo-abstract.php)
-- [Inteface](oo-interface.php)
+- [Interface](oo-interface.php)
 - [Const](oo-const.php)
 - [Static](oo-const.php)
 - [Traits](oo-trait.php)
