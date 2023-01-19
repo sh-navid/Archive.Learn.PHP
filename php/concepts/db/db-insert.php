@@ -8,7 +8,7 @@ if ($conn->connect_error) {
 
 $result = $conn->query("insert into task values (null,'new task',false)");
 if ($result === true) {
-    echo "Insertion done";
+    echo "Insertion done with ID=" . $conn->insert_id;
 } else {
     echo $conn->error;
 }

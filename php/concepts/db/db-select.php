@@ -9,5 +9,7 @@ if ($conn->connect_error) {
 $result = $conn->query("select * from task", MYSQLI_STORE_RESULT);
 
 while ($task = $result->fetch_array(MYSQLI_ASSOC)) {
-    echo $task["title"] . "\n";
+    echo $task["id"] . " => " . $task["title"] . "\n";
 }
+
+$conn->close();
