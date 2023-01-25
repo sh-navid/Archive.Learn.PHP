@@ -13,7 +13,7 @@
     - `php -S 0.0.0.0:8000 example-02.php`
 - [File uploader form](php/examples/example-03.html), [File uploader service](php/examples/example-03.php)
 - [Captcha Generator](php/examples/example-04.php)
-- Simple Router Example
+- [Simple Router Example](php/examples/example-05.php)
 
 ## Headings
 - [Output](php/concepts/output/README.md)
